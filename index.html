@@ -290,7 +290,7 @@
         <h3 class="section__subtitle">Meus <span>Serviços</span></h3>
         <h2 class="section__title">O que eu faço</h2>
         <div class="services__container container grid">
-          <article class="services__card ">
+          <article class="services__card">
             <i class="ri-layout-3-line services__icon"></i>
             <h2 class="services__title">Desenvolvedor Web</h2>
             <p class="services__description">
@@ -311,7 +311,7 @@
 
           <article class="services__card">
             <i class="ri-macbook-line services__icon"></i>
-            <h2 class="services__title">Desenvolvedor Desktop</h2>
+            <h2 class="services__title">Desenvolvedor Java</h2>
             <p class="services__description">
               Desenvolvimento de aplicações desktop personalizadas. Usando Java,
               e frameworks como JavaFx.
@@ -321,14 +321,142 @@
       </section>
 
       <!--==================== PROJECTS ====================-->
-      <section class="projects section" id="projects"></section>
+      <section class="projects section" id="projects">
+        <h3 class="section__subtitle">Meus Projetos</h3>
+
+        <h2 class="section__title">Projetos Recentes</h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__cards">
+            <img
+              src="assets/img/project-img-1.jpg"
+              alt="Imagem projeto"
+              class="projects__img"
+            />
+
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web</span>
+
+              <h2 class="projects__title">Website Moderno</h2>
+
+              <a href="#" class="projects__button">
+                Ver Demo <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__cards">
+            <img
+              src="assets/img/project-img-2.jpg"
+              alt="Imagem projeto"
+              class="projects__img"
+            />
+
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web</span>
+
+              <h2 class="projects__title">Website Moderno</h2>
+
+              <a href="#" class="projects__button">
+                Ver Demo <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__cards">
+            <img
+              src="assets/img/project-img-3.jpg"
+              alt="Imagem projeto"
+              class="projects__img"
+            />
+
+            <div class="projects__modal">
+              <span class="projects__subtitle">Web</span>
+
+              <h2 class="projects__title">Website Moderno</h2>
+
+              <a href="#" class="projects__button">
+                Ver Demo <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <h3 class="section__subtitle">Entre em <span>Contato</span></h3>
+
+        <h2 class="section__title">Contate-me</h2>
+
+        <div class="contact__container container grid">
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__group">
+              <input
+                type="text"
+                name="user-name"
+                required
+                placeholder="Digite seu nome"
+                class="contact__input"
+              />
+              <input
+                type="email"
+                name="user-email"
+                required
+                placeholder="Digite seu email"
+                class="contact__input"
+              />
+            </div>
+
+            <textarea
+              name="user_project"
+              required
+              placeholder="Digite sua mesagem"
+              class="contact__input"
+            ></textarea>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="button contact__button">
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Eduardo <span >Schiliga</span></h1>
+
+          <h2 class="footer__education">Desenvolvedor Front-end</h2>
+        </div>
+
+        <div class="footer__social">
+          <a
+            href="https://github.com/Eduschiliga"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/eduardo-schiliga-407396240/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+        </div>
+
+        <span class="footer__copy">
+          &#169; Copyrigth Eduardo Schiliga, todos os direitos reservados
+        </span>
+      </div>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
 
@@ -336,7 +464,7 @@
     <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
-
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
