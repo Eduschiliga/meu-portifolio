@@ -10,7 +10,6 @@ if (navToggle) {
   });
 }
 
-
 /* Fechar Menu */
 /* Validar se a constante existe */
 if (navClose) {
@@ -29,3 +28,14 @@ function linkAction() {
 }
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+/* Adicionar BLUR no HEADER */
+const blurHeader = () => {
+  const header = document.getElementById("header");
+  // Quando a rolagem é maior que 100 na altura da janela de visualização, adicione a classe blur-header à tag de cabeçalho
+  this.scrollY >= 50
+    ? header.classList.add("blur-header")
+    : header.classList.remove("blur-header");
+};
+
+window.addEventListener("scroll", blurHeader);
