@@ -443,13 +443,14 @@ svg {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background-color: var(--container-color);
-  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   border: 2px solid var(--container-color);
   transition: border 0.4s;
+  margin-bottom: 3rem;
 }
 
 .services__icon {
@@ -461,6 +462,7 @@ svg {
 .services__title {
   font-size: 1rem;
   font-weight: var(--font-medium);
+  margin: 5px;
 }
 
 .services__card:hover {
@@ -709,6 +711,16 @@ svg {
 
   .services__card {
     padding-block: 1.5rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .services__card {
+    padding-block: 1.5rem;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -726,6 +738,7 @@ svg {
 }
 
 @media screen and (min-width: 768px) {
+
   .nav__menu {
     width: 55%;
   }
@@ -850,7 +863,7 @@ svg {
   }
 
   .skills__content {
-    column-gap: 8rem;
+    column-gap: 5rem;
   }
 
   .skills__group {
