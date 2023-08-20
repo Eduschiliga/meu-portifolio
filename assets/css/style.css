@@ -524,15 +524,20 @@ svg {
   color: var(--first-color);
   padding: 0.5rem;
   border-radius: 1rem;
+  margin-bottom: 1em;
+  transition: bottom 1s;
 }
 
 .projects__subtitle {
+  color: var(--first-color);
   display: block;
   margin-bottom: 0.25rem;
 }
 
 .projects__title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  text-shadow: 1px 1px 1px var(--title-color);
   margin-bottom: 0.75rem;
 }
 
@@ -545,6 +550,11 @@ svg {
 
 .projects__button i {
   font-size: 1.25rem;
+}
+
+.projects__button:hover {
+  background-color: var(--first-color);
+  color: var(--title-color);
 }
 
 .projects__cards:hover .projects__modal {
