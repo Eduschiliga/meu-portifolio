@@ -1,8 +1,6 @@
 # meu-portifolio
 
-# Portfólio Responsivo com Tema Escuro e Animações
-
-Este é um projeto de um site de portfólio responsivo que foi desenvolvido utilizando HTML, CSS e JavaScript. O site foi criado com foco na usabilidade em dispositivos móveis, seguindo a metodologia "Mobile First", e posteriormente foi adaptado para desktops, garantindo uma experiência consistente em todos os dispositivos.
+# Portfólio Responsivo
 
 ## Características Principais
 
