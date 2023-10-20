@@ -1,6 +1,4 @@
-# meu-portifolio
-
-# Portfólio Responsivo
+# Portfólio
 
 ## Características Principais
 
